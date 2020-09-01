@@ -5,6 +5,7 @@ a simple application on [Skynet](https://siasky.net).
 This package can be used as a stand alone repo.
 
 # Prerequisites
+ - Fork the main Skynet Workshop repo or install wget
  - [node & npm](https://nodejs.org/en/)
  - [Psych](https://www.youtube.com/watch?v=ZXsQAXx_ao0)
 
@@ -38,10 +39,11 @@ remove - "main": "index.js",
 add    - "private": true,
 ```
 
-Lastly let's add a `.gitignore` file to help keep things in order.
+Lastly let's add a `.gitignore` file and add the following lines to help keep things in order.
 
 ```
-echo -e ".git\nnode_modules" > .gitignore
+.git
+node_modules
 ```
 
 Don't forget to commit your work!
